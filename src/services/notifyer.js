@@ -1,12 +1,13 @@
 const Notifyer = {
-     async init() {
-       const permission = await Notification.requestPermission()
-       if (permission !== "granted") {
+    async init() {
+        console.log("Teste", Notification)
+        const permission = await Notification.requestPermission()
+        if (permission !== "granted") {
             alert("É necessario permitir as notificações do navegador para que nós te avisamos quando o tempo esgotar")
-       }
+        }
     },
 
-    notify({title, body, icon}) {
+    notify({ title, body, icon }) {
         new Notification(title, {
             body,
             icon
@@ -14,4 +15,4 @@ const Notifyer = {
     }
 }
 
-export {Notifyer}
+export { Notifyer }
