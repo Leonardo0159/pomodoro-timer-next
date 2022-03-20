@@ -1,0 +1,120 @@
+.box {
+    height: 35rem;
+    border-radius: 15px;
+    background-color: rgba(22, 22, 22, 0.9);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pomodoro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoPomodoro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tomato {
+    margin-left: 1rem;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.tomato img{
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.buttonResume{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    height: 2.5rem;
+    width: 10rem;
+    padding-left: 1rem;
+    background-color: #009e2a;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonPause{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 10rem;
+    padding-left: 1rem;
+    background-color: #9e0000;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonRestart{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 10rem;
+    padding-left: 1rem;
+    background-color: #dfc923;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonRest{
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    height: 2.5rem;
+    width: 10rem;
+    padding-left: 1rem;
+    background-color: #00459e;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) { 
+    .box {
+        margin: 0rem 2rem;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonResume{
+        margin: 0;
+    }
+    
+    .buttonPause{
+        margin: 0;
+    }
+    
+    .buttonRestart{
+        margin: 0;
+    }
+    
+    .buttonRest{
+        margin: 0;
+        margin-bottom: 2rem;
+
+    }
+
+}

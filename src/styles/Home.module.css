@@ -1,0 +1,46 @@
+.app {
+  
+}
+
+.container {
+  background-color: #FFF;
+  background-image: url(../assets/images/estudo.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideLeft {
+  flex: 1;
+}
+
+.sideCenter {
+  flex: 3;
+}
+
+.sideRight {
+  flex: 1;
+}
+
+.description {
+  background-color: #2d2d2d;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) { 
+  .sideLeft {
+    display: none;
+  }
+  
+  .sideRight {
+    display: none;
+  }
+
+  .container { 
+    background-position: center;
+  }
+}
+
