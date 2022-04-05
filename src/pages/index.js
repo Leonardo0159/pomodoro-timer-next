@@ -4,12 +4,15 @@ import { DescriptionPomodoro } from '../components/DescriptionPomodoro.js'
 import { MyTimer } from '../components/MyTimer';
 import { Notifyer } from '../services/notifyer';
 import { useEffect } from 'react';
+import ReactGA from "react-ga4";
 
+ReactGA.initialize("G-JZGVS1E997");
 export default function Home() {
 
   useEffect(() => {
+    ReactGA.send("pageview");
     Notifyer.init();
-  }, [])
+  })
 
   const time = new Date();
   time.setSeconds(time.getSeconds() + 25 * 60); // 25 minutes timer
