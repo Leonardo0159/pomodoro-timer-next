@@ -22,6 +22,7 @@ export default function Home() {
       <Head>
         <title>Técnica Pomodoro</title>
         <meta name="Pomodoro" content="Auxílo na técnica pomodoro" />
+        <meta name="google-site-verification" content="4hknokc29rYvjdwLBSDdFIfNxBT6H7Ygo3HYXZnR2nU" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
