@@ -23,6 +23,12 @@ export default function Home() {
         <title>Técnica Pomodoro</title>
         <meta name="Pomodoro" content="Auxílo na técnica pomodoro" />
         <meta name="google-site-verification" content="4hknokc29rYvjdwLBSDdFIfNxBT6H7Ygo3HYXZnR2nU" />
+        <meta property="og:title" content="pomodoro timer next" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://pomodoro-timer-next.vercel.app/" />
+        <meta
+          property="og:image"
+          content="/tomato.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
